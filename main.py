@@ -9,8 +9,8 @@ import seaborn as sns
 from datetime import datetime, date
 import dateutil
 import warnings
-
 warnings.filterwarnings("ignore")
+
 import plotly.express as px
 
 from plotly.subplots import make_subplots
