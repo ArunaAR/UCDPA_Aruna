@@ -44,8 +44,8 @@ data_date['dateRep'] = pd.to_datetime(data_date['dateRep'])
 print (data_date)
 # ----------------
 
-# finding number of Cases in EU
-group_eu = covid_data.groupby('countriesAndTerritories')['cases', 'deaths'].sum().reset_index()  # Using groupby to display the sum of cases.deaths in EU
+# # Using groupby to display the sum of cases and deaths in EU
+group_eu = covid_data.groupby('countriesAndTerritories')['cases', 'deaths'].sum().reset_index()
 print (group_eu)
 #
 
