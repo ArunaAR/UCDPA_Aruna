@@ -311,7 +311,7 @@ fig.update_layout(coloraxis=dict(colorscale='RdBu'), showlegend=False,title_text
 fig.update_layout(plot_bgcolor='rgb(254,224,144)')
 fig.show()
 
-
+#Covid 19: Ireland and Spain Cases
 fig = make_subplots(
     rows=2, cols=2,
     specs=[[{}, {}],
