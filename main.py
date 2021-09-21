@@ -128,7 +128,7 @@ plt.show()
 data_death=covid_data.groupby("countriesAndTerritories")[['deaths']].sum().reset_index()
 #print (data_death)
 
-plt.figure(figsize=(15,40))
+plt.figure(figsize=(15,10))
 sns.barplot(x=data_death["countriesAndTerritories"], y=data_death["deaths"])
 plt.yticks(size=10)
 plt.xticks(size=20)
