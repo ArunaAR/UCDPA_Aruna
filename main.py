@@ -84,12 +84,12 @@ plt.title("Top cases based on countries in Europe");
 plt.show()
 #
 
-#Map of EU showing confirmed cases
+#Map of EU - covid cases
 fig = px.choropleth(group_eu, locations="countriesAndTerritories",
                     locationmode='country names', color="cases", scope='europe',
                     hover_name="countriesAndTerritories", range_color=[1,8777999],height=800, width=750,
                     color_continuous_scale="sunset",
-                    title='Cases and Deaths Over Time in Europe')
+                    title='Cases Reported in EU ')
 
 fig.show()
 
