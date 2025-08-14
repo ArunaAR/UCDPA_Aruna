@@ -11,7 +11,17 @@ This repository presents a detailed analysis of daily reported COVID-19 cases an
 
 ---
 
-##  Repository Structure
+<h2>Repository Structure</h2>
+<pre>
+├── UCDPA_Aruna_Balasiva_Report.pdf      # COVID-19 project report
+├── report_preview.png                   # Preview of report’s first page
+├── UCDPA_Aruna-Final.ipynb              # Jupyter Notebook with analysis & visualizations
+├── data.csv                             # COVID-19 dataset from ECDC
+├── main.py                              # (Optional) script version of analysis
+├── requirements.txt                     # Python dependencies list (if present)
+└── README.md                            # This file
+</pre>
+
 
 
 
