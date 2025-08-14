@@ -1,4 +1,4 @@
-#  COVID-19 Cases & Deaths in the EU: A Data Analytics Project
+#  COVID-19 Cases & Deaths in the EU
 
 This repository presents a detailed analysis of daily reported COVID-19 cases and deaths across EU countries between January and September 2021. The analysis includes data preprocessing, exploratory visualization, and trend interpretation.
 
